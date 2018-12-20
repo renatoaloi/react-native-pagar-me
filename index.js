@@ -1,6 +1,10 @@
 
-import { NativeModules } from 'react-native';
+//import { NativeModules } from 'react-native';
 
-const { RNPagarMe } = NativeModules;
+//const { RNPagarMe } = NativeModules;
 
-export default RNPagarMe;
+export default const RNPagarMe = {
+  getName: () => {
+    return "Alguma coisa ai";
+  }
+};
