@@ -1,8 +1,7 @@
-
 {
   "name": "react-native-pagar-me",
   "version": "1.0.0",
-  "description": "",
+  "description": "`$ npm install react-native-pagar-me --save`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +9,18 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Renato Aloi",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoaloi/react-native-pagar-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renatoaloi/react-native-pagar-me/issues"
+  },
+  "homepage": "https://github.com/renatoaloi/react-native-pagar-me#readme"
 }
